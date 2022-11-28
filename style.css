@@ -10,6 +10,8 @@
   --blue-pacity: #36536b;
   --darkblue: #1b262f;
   --blue-gray: #6c8294;
+  --pink--background: #edf3f8;
+  --background--image-circle: #d2dbe3;
 }
 
 body {
@@ -26,3 +28,17 @@ input {
   border: 0;
   outline: 0;
 }
+
+.header {
+  width: 100%;
+  background-color: var(--pink--background);
+  background-image: url(/assets/home/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: top -150px right -150px;
+}
+
+.navbar-body-size {
+    padding: 40px 100px 0px 100px;
+}
+
+
