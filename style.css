@@ -101,7 +101,7 @@ a:active {
 
 .container__header__information {
   width: 60%;
-  padding-top: 120px;
+  padding-top: 160px;
 }
 
 .container__header__information--title {
@@ -194,6 +194,9 @@ a:active {
 .brand__content {
   width: 100%;
   background-color: var(--darkblue);
+  background-image: url(/assets/home/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: top -400px left -250px;
 }
 
 .brand-content-body-size {
@@ -243,9 +246,14 @@ a:active {
 }
 
 .brand__content__img {
-  color: white;
+  
 }
 
 .brand__margin {
   margin-bottom: 40px;
 }
+
+.easy__content {
+  width: 100%;
+}
+
