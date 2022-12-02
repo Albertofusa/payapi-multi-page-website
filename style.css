@@ -242,18 +242,49 @@ a:active {
 
 .brand__content__img__box {
   display: grid;
-  place-self: center;
+  place-self: center right;
 }
 
 .brand__content__img {
-  
+  color: white;
 }
 
 .brand__margin {
   margin-bottom: 40px;
 }
 
-.easy__content {
+.easy-content-body-size {
+  padding: 100px 100px 50px 100px;
+}
+
+.easy__content__box {
+  width: 100%;
+  display: flex;
+}
+
+.easy__content__box__img {
+  width: 50%;
+}
+
+.easy__content--img {
   width: 100%;
 }
 
+.easy__content__box__infotmation {
+  width: 50%;
+  padding-top: 115px;
+}
+
+.easy__content__box__infotmation--title {
+  font-family: "DM Serif Display", serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--blue-pacity);
+  margin-bottom: 25px;
+}
+
+.easy__content__box__infotmation--text {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--blue-gray);
+}
