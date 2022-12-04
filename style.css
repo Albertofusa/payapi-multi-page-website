@@ -222,7 +222,7 @@ a:active {
 
 .brand__content__text {
   color: var(--blue-gray);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px;
   font-family: "DM Serif Display", serif;
   font-weight: 100;
@@ -257,7 +257,7 @@ a:active {
 }
 
 .content-body-size {
-  padding: 100px 100px 0 100px;
+  padding: 100px;
 }
 
 .easy__content__box {
@@ -339,4 +339,46 @@ a:active {
   font-size: 13px;
   color: var(--blue-gray);
   line-height: 25px;
+}
+
+.ready__content__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.ready__content__box--title {
+  font-family: "DM Serif Display", serif;
+  font-size: 55px;
+  color: var(--blue-pacity);
+  font-weight: 400;
+}
+
+.ready__content__box__form {
+  display: flex;
+  position: relative;
+}
+
+.input--email--ready {
+  padding: 15px 150px 15px 25px;
+  border-radius: 50px;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.13);
+  position: absolute;
+  right: 150px;
+  top: -10px;
+}
+
+.input--button--ready {
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: var(--dark-pink);
+  color: var(--link--whater--white);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: -200px;
+  top: -10px;
 }
