@@ -154,10 +154,9 @@ a:active {
 }
 
 .span {
-  color: var(--darkblue);
+  color: var(--blue-gray);
   text-decoration: underline;
   font-size: 14px;
-  cursor: pointer;
 }
 
 .container__header__image {
@@ -381,4 +380,38 @@ a:active {
   position: absolute;
   left: -200px;
   top: -10px;
+}
+
+.input--button--ready:active {
+  transform: scale(0.99);
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--darkblue);
+  background-image: url(/assets/home/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: top -100px right -500px;
+}
+
+.footer-body-size {
+  padding: 30px 100px 30px 100px;
+}
+
+.footer__content__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__box__logolinks {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.footer__icons {
+  height: 25px;
+  margin-left: 20px;
+  cursor: pointer;
 }
